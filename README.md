@@ -4,7 +4,7 @@ App sử dụng mail sẵn có, dùng mail đã có sẵn để đăng ký, sau 
 
 account sẵn có:
 Acc: nphan7717@gmail.com
-Pass: honhi2002
+Pass: 12345678
 
 Có thể nhấn vào chữ "Forgot password" trong trường hợp quên mật khẩu sau đó check mail để tạo lại mật khâir mới.
 
