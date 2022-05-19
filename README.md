@@ -1,5 +1,7 @@
 # NotesApp
 
+API 24: Android 7.0 (Nougat)
+
 App sử dụng mail sẵn có, dùng mail đã có sẵn để đăng ký, sau khi đăng ký app sẽ gửi một mail xác nhận đến mail dùng để đăng ký, check mail và xác nhận theo đường link đường link được gửi tới.
 
 Account sẵn có:
