@@ -62,6 +62,7 @@ public class editNoteactivity extends AppCompatActivity {
                 String newTitle = mEditTitleOfNote.getText().toString();
                 String newContent = mEditContentOfNote.getText().toString();
 
+
                 if(newTitle.isEmpty() || newContent.isEmpty()){
                     Toast.makeText(getApplicationContext(), "Something is Empty", Toast.LENGTH_LONG).show();
                     return;
@@ -69,7 +70,7 @@ public class editNoteactivity extends AppCompatActivity {
                 }
 
                 else{
-                    
+
                     DocumentReference documentReference = firebaseFirestore.collection("notes").document(firebaseUser.getUid()).collection("myNotes").document(data.getStringExtra("noteId"));
                     Map<String,Object> note = new HashMap<>();
                     note.put("title", newTitle);
@@ -90,7 +91,7 @@ public class editNoteactivity extends AppCompatActivity {
 
                         }
                     });
-                    
+
                 }
             }
         });

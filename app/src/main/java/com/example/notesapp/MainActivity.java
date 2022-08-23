@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         mgoToSignup=findViewById(R.id.gotosignup);
         mprogressBarOfMainActivity = findViewById(R.id.progressbarofmainactivity);
 
-        firebaseAuth=FirebaseAuth.getInstance();
-        FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
+        firebaseAuth = FirebaseAuth.getInstance();
+        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
 
         if(firebaseUser!=null){
             finish();
@@ -85,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
                     //đăng nhập
 
                     mprogressBarOfMainActivity.setVisibility(View.VISIBLE);
-
-
                     firebaseAuth.signInWithEmailAndPassword(mail,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {

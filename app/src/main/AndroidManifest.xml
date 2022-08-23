@@ -16,11 +16,11 @@
         <activity
             android:name=".noteDetails"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".editNoteactivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".createNotes"
             android:exported="false"

@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".notesactivity">
 
+
+
 <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
 <!--        android:id="@+id/createnotefab"-->
 <!--        android:layout_width="wrap_content"-->
@@ -35,14 +37,67 @@
 
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    </androidx.recyclerview.widget.RecyclerView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/findnote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:hint="Find your notes"
+                android:paddingLeft="30dp"
+                android:textSize="24sp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/findnotebutton"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_weight="0"
+                android:background="@color/pa"
+                android:src="@drawable/ic_baseline_find_in_page_24">
+
+            </ImageView>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scrollbars="vertical"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/findnotes"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginTop="9dp">-->
+
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
 
 
 </RelativeLayout>

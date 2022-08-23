@@ -6,13 +6,15 @@ public class firebasemodel {
     private String content;
 
 
+
     public firebasemodel(){
 
     }
 
     public firebasemodel(String title, String content){
-        this.title=title;
-        this.content=content;
+        this.title = title;
+        this.content = content;
+
     }
 
     public String getTitle() {

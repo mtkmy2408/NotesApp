@@ -7,17 +7,20 @@
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.106" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.187" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1" />
-        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_create_notes.xml" value="0.22" />
+        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_create_notes.xml" value="0.1" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_edit_noteactivity.xml" value="0.1796875" />
+        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_find_note.xml" value="0.1796875" />
+        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_find_notee.xml" value="0.1796875" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_note_details.xml" value="0.1" />
+        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_note_details.xml" value="0.12" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_notes.xml" value="0.1796875" />
-        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_notesactivity.xml" value="0.3631578947368421" />
+        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_notesactivity.xml" value="0.22" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/note_layout.xml" value="0.1" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/layout/notes_layout.xml" value="0.22" />
         <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/NHI HO/AndroidStudioProjects/NotesApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

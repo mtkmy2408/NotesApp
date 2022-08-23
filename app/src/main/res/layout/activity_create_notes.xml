@@ -7,24 +7,24 @@
     tools:context=".createNotes">
 
 
-
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarofcreatenote"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:id="@+id/toolbarofcreatenote"
         android:background="@color/white">
 
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="12dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#05A9A8"
-        android:hint="Enter your note title here!"
-        android:id="@+id/createtitleofnote">
-    </EditText>
+        <EditText
+            android:id="@+id/createtitleofnote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter your note title here!"
+            android:paddingTop="12dp"
+            android:textColor="#05A9A8"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </EditText>
 
     </androidx.appcompat.widget.Toolbar>
 
